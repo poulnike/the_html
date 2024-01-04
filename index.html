@@ -24,24 +24,62 @@
       content="width=device-width, initial-scale=1"
     />
     <title>Bootstrap w/ Vite</title>
-    <script type="module" crossorigin src="/assets/index-IZ792Uc0.js"></script>
-    <link rel="stylesheet" crossorigin href="/assets/index-l1vfA4DO.css">
+    <script type="module" crossorigin src="/assets/index-mUtq6sah.js"></script>
+    <link rel="stylesheet" crossorigin href="/assets/index-wl_7eaxA.css">
   </head>
   <body>
     <nav class="navbar navbar-expand">
       <div class="container-xxl d-flex justify-content-start">
         <a
-          class="navbar-brand w-25"
+          class="navbar-brand col-3 col-md-3 col-lg-2 col-xl-3"
           href="#"
         >
           <img
             src="/images/logo.png"
-            class=""
-            width="200px"
+            class="col-12 col-md-8"
           />
         </a>
-        <div class="flex-fill">
-          <div>
+        <div class="flex-fill col-9 col-md-9 col-lg-10 col-xl-9">
+          <div class="d-flex d-lg-none mobile-nav flex-fill justify-content-end">
+            <a
+              href="#"
+              class="btn btn-outline-primary live"
+              type="submit"
+            >
+              <i class="text-danger fa-solid fa-circle"></i>
+              <span>Прямой эфир</span>
+            </a>
+            <!--<div class="lang ms-4 d-none d-lg-block">
+              <div
+                class="btn btn-outline-secondary border-primary border-opacity-25"
+              >
+                <span>RU</span>
+              </div>
+              <div
+                class="btn btn-outline-secondary border-primary border-opacity-25"
+              >
+                <span>EN</span>
+              </div>
+            </div>-->
+            <a
+              href="#"
+              class="hamburger ps-3 h-100"
+              data-bs-toggle="offcanvas"
+              data-bs-target="#offcanvasWithBothOptions"
+              aria-controls="offcanvasWithBothOptions"
+            >
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="32"
+                viewBox="0 0 448 512"
+              >
+                <path
+                  d="M0 96C0 78.3 14.3 64 32 64H416c17.7 0 32 14.3 32 32s-14.3 32-32 32H32C14.3 128 0 113.7 0 96zM0 256c0-17.7 14.3-32 32-32H416c17.7 0 32 14.3 32 32s-14.3 32-32 32H32c-17.7 0-32-14.3-32-32zM448 416c0 17.7-14.3 32-32 32H32c-17.7 0-32-14.3-32-32s14.3-32 32-32H416c17.7 0 32 14.3 32 32z"
+                />
+              </svg>
+            </a>
+          </div>
+          <!--<div class="d-none d-lg-block">
             <ul class="nav lang justify-content-end">
               <li class="nav-item">
                 <a
@@ -61,8 +99,8 @@
                 >
               </li>
             </ul>
-          </div>
-          <div class="d-flex flex-fill justify-content-between">
+          </div>-->
+          <div class="d-none d-lg-flex flex-fill justify-content-between">
             <ul class="navbar-nav">
               <li class="nav-item">
                 <a
@@ -212,7 +250,7 @@
     </div>
     <div class="container-xxl mt-2 mx-auto">
       <div class="row">
-        <div class="col-3"><div class="list-group list-group-flush bg-white">
+        <div class="col-lg-3 col-md-4 pb-3"><div class="list-group list-group-flush bg-white">
   <div class="list-group-item list-group-item-action">
     <h5 class="mb-1 text-body-tertiary">Новости</h5>
   </div>
@@ -283,193 +321,204 @@
   </a>
 </div>
 </div>
-        <div class="col-6">
+        <div class="col-lg-6 col-md-8 pb-3">
           <div class="the_centre text-bg-primary p-3 rounded">
             <div class="swiper_block">
-              <div
-                class="swiper swiper_main"
-                data-swiper='{"slidesPerView":1, "pagination":{"el":".swiper-pagination-004"}, "navigation":{"nextEl":".swiper_block .swiper-next-004", "prevEl": ".swiper_block .swiper-prev-004"}}'
-              >
-                <div class="swiper-wrapper">
-                  <div class="swiper-slide">
-                    <a
-                      href="#"
-                      class="card mb-3 link-underline link-underline-opacity-0"
-                    >
-                      <div class="row h-100 g-0">
-                        <div class="col-md-6">
-                          <img
-                            src="https://theotherukraine.info/wp-content/uploads/2023/12/fddfb353-0d52-4140-b5bb-40de77557b1f.jpg"
-                            class="object-fit-cover h-100 w-100 rounded-3"
-                          />
-                        </div>
-                        <div class="col-md-6">
-                          <div class="card-body">
-                            <h4 class="card-title">
-                              Виктор Медведчук: Зеленский сбежит в США
-                            </h4>
-                            <p class="card-text">
-                              Недавно нашелся ответ на вопрос, почему Зеленский из
-                              президента мира стал символом войны, перешел на риторику
-                              военной русофобской истерии и категорически выступал против
-                              переговоров
-                            </p>
-                            <p class="card-text">
-                              <small class="text-body-secondary">25 января</small>
-                            </p>
-                          </div>
-                        </div>
-                      </div>
-                    </a>
-                  </div>
-                  <div class="swiper-slide">
-                    <a
-                      href="#"
-                      class="card mb-3 link-underline link-underline-opacity-0"
-                    >
-                      <div class="row h-100 g-0">
-                        <div class="col-md-6">
-                          <img
-                            src="https://theotherukraine.info/wp-content/uploads/2023/12/skrinshot-22.12.23_08.42.16.png"
-                            class="object-fit-cover h-100 w-100 rounded-3"
-                          />
-                        </div>
-                        <div class="col-md-6">
-                          <div class="card-body">
-                            <h4 class="card-title">
-                              Виктор Медведчук: Запад пытается уничтожить Сербию
-                            </h4>
-                            <p class="card-text">
-                              Сегодняшние события в Сербии — это классика «цветной
-                              революции», когда нацисты выдают себя за демократов, а
-                              политические преступники заявляют, что наводят порядок.
-                            </p>
-                            <p class="card-text">
-                              <small class="text-body-secondary">24 января</small>
-                            </p>
-                          </div>
-                        </div>
-                      </div>
-                    </a>
-                  </div>
-                </div>
-                <!-- If we need pagination -->
-                <div class="swiper-pagination swiper-pagination-004"></div>
-              </div>
-              <div class="swiper-nav swiper-prev swiper-prev-004 shadow">
-                <i class="fa-solid fa-chevron-left"></i>
-              </div>
-              <div class="swiper-nav swiper-next swiper-next-004 shadow">
-                <i class="fa-solid fa-chevron-right"></i>
+  <div
+    class="swiper swiper_main"
+    data-swiper='{"slidesPerView":1, "pagination":{"el":".swiper-pagination-004"}, "navigation":{"nextEl":".swiper_block .swiper-next-004", "prevEl": ".swiper_block .swiper-prev-004"}}'
+  >
+    <div class="swiper-wrapper">
+      <div class="swiper-slide">
+        <a
+          href="#"
+          class="card mb-3 link-underline link-underline-opacity-0"
+        >
+          <div class="row h-100 g-0">
+            <div class="col-md-6 col-lg-6">
+              <img
+                src="https://theotherukraine.info/wp-content/uploads/2023/12/fddfb353-0d52-4140-b5bb-40de77557b1f.jpg"
+                class="object-fit-cover h-100 w-100 rounded-3"
+              />
+            </div>
+            <div class="col-md-6 col-lg-6">
+              <div class="card-body">
+                <h4 class="card-title">
+                  Виктор Медведчук: Зеленский сбежит в США
+                </h4>
+                <p class="card-text">
+                  Недавно нашелся ответ на вопрос, почему Зеленский из
+                  президента мира стал символом войны, перешел на риторику
+                  военной русофобской истерии и категорически выступал против
+                  переговоров
+                </p>
+                <p class="card-text">
+                  <small class="text-body-secondary">25 января</small>
+                </p>
               </div>
             </div>
+          </div>
+        </a>
+      </div>
+      <div class="swiper-slide">
+        <a
+          href="#"
+          class="card mb-3 link-underline link-underline-opacity-0"
+        >
+          <div class="row h-100 g-0">
+            <div class="col-md-6">
+              <img
+                src="https://theotherukraine.info/wp-content/uploads/2023/12/skrinshot-22.12.23_08.42.16.png"
+                class="object-fit-cover h-100 w-100 rounded-3"
+              />
+            </div>
+            <div class="col-md-6">
+              <div class="card-body">
+                <h4 class="card-title">
+                  Виктор Медведчук: Запад пытается уничтожить Сербию
+                </h4>
+                <p class="card-text">
+                  Сегодняшние события в Сербии — это классика «цветной
+                  революции», когда нацисты выдают себя за демократов, а
+                  политические преступники заявляют, что наводят порядок.
+                </p>
+                <p class="card-text">
+                  <small class="text-body-secondary">24 января</small>
+                </p>
+              </div>
+            </div>
+          </div>
+        </a>
+      </div>
+    </div>
+    <!-- If we need pagination -->
+    <div class="swiper-pagination swiper-pagination-004"></div>
+  </div>
+  <div class="swiper-nav swiper-prev swiper-prev-004 shadow">
+    <i class="fa-solid fa-chevron-left"></i>
+  </div>
+  <div class="swiper-nav swiper-next swiper-next-004 shadow">
+    <i class="fa-solid fa-chevron-right"></i>
+  </div>
+</div>
+ <div class="the_best-news row">
+  <a
+    href="#"
+    class="card col-6 col-lg-6 col-md-6 border-0 text-bg-primary link-underline-primary"
+  >
+    <img
+      style="height: 160px"
+      src="https://theotherukraine.info/wp-content/uploads/2023/12/img_5929.jpeg"
+      class="card-img-top object-fit-cover w-100 rounded-3"
+    />
+    <div class="card-body">
+      <h5 class="card-title text-white">
+        США начали готовить подрыв «Северных потоков»
+      </h5>
+    </div>
+  </a>
 
-            <div class="row row-cols-1 row-cols-md-2 g-4">
-              <div class="col">
-                <a
-                  href="#"
-                  class="card list-group-item list-group-item-action"
-                >
-                  <img
-                    src="https://theotherukraine.info/wp-content/uploads/2023/12/img_5929.jpeg"
-                    class="card-img-top rounded-3"
-                  />
-                  <div class="card-body">
-                    <h5 class="card-title">
-                      США начали готовить подрыв «Северных потоков»
-                    </h5>
-                  </div>
-                </a>
-              </div>
-              <div class="col">
-                <a
-                  href="#"
-                  class="card list-group-item list-group-item-action"
-                >
-                  <img
-                    src="https://theotherukraine.info/wp-content/uploads/2023/12/img_5485-768x432.jpeg"
-                    class="card-img-top rounded-3"
-                  />
-                  <div class="card-body">
-                    <h5 class="card-title">США спишут Зеленского в утиль</h5>
-                  </div>
-                </a>
-              </div>
-            </div>
+  <a
+    href="#"
+    class="card col-6 col-lg-6 col-md-6 border-0 text-bg-primary link-underline-primary"
+  >
+    <img
+      style="height: 160px"
+      src="https://theotherukraine.info/wp-content/uploads/2023/12/img_5485-768x432.jpeg"
+      class="card-img-top object-fit-cover w-100 rounded-3"
+    />
+    <div class="card-body">
+      <h5 class="card-title text-white">США спишут Зеленского в утиль</h5>
+    </div>
+  </a>
+</div>
+
           </div>
         </div>
-        <div class="col-3">
-          <div class="card text-bg-danger p-3 border-0 mb-3">
-            <div class="d-flex align-items-center">
-              <img
-                src="images/avatar.jpeg"
-                alt=""
-                style="width: 65px; height: 65px"
-                class="rounded-circle"
-              />
-              <div class="ms-3">
-                <p class="small mb-1">
-                  Председатель Совета Движения «Другая Украина»
-                </p>
-                <h5 class="fw-bold mb-0">Виктор Медведчук</h5>
-              </div>
-            </div>
-          </div>
-          <div class="card text-bg-primary p-3 border-0 mb-3">
-            <div class="d-flex align-items-center">
-              <img
-                src="images/icon_001.png"
-                alt=""
-                style="width: 65px; height: 65px"
-                class="rounded-circle"
-              />
-              <div class="ms-3">
-                <h5 class="fw-bold mb-0 text-white">
-                  Центр поддержки Украинцев
-                </h5>
-              </div>
-            </div>
-          </div>
-          <div class="card text-bg-primary p-3 border-0 mb-3">
-            <div class="d-flex align-items-center">
-              <img
-                src="images/icon_002.png"
-                alt=""
-                style="width: 65px; height: 65px"
-                class="rounded-circle"
-              />
-              <div class="ms-3">
-                <h5 class="fw-bold mb-0 text-white">Школа кадров</h5>
-              </div>
-            </div>
-          </div>
-          <div class="the_hot">
-            <div class="card border-0 bg-white">
-              <img
-                class="image img-fluid object-fit-cover w-100 rounded-3"
-                src="https://theotherukraine.info/wp-content/uploads/2023/11/photo_2023-11-27-17.42.58.jpeg"
-              />
-              <div class="card-img-overlay">
-                <div class="top d-flex justify-content-between">
-                  <a href="#">
-                    <span
-                      class="badge rounded-pill text-bg-primary p-2 text-white fs-6"
-                      >Горячая тема
-                    </span>
-                  </a>
-                  <div class="icon">
-                    <i
-                      class="fa-sharp fa-solid fa-circle-play"
-                      style="color: #c1262d; font-size: 2rem"
-                    ></i>
+        <div class="col-lg-3 col-md-12 pb-3">
+          <div class="row">
+            <div class="col-lg-12 col-md-6">
+              <div class="card text-bg-danger p-3 border-0 mb-3">
+                <div class="d-flex align-items-center">
+                  <img
+                    src="images/avatar.jpeg"
+                    alt=""
+                    style="width: 65px; height: 65px"
+                    class="rounded-circle"
+                  />
+                  <div class="ms-3">
+                    <p class="small mb-1">
+                      Председатель Совета Движения «Другая Украина»
+                    </p>
+                    <h5 class="fw-bold mb-0">Виктор Медведчук</h5>
                   </div>
                 </div>
+              </div>
 
-                <div class="card-body">
-                  <div class="card-text text-white mb-2">Руслан Калинчук</div>
-                  <h5 class="card-title fs-4">
-                    Вместо образования — лженауки, вместо церкви — оккультизм
-                  </h5>
+              <div class="card text-bg-primary p-3 border-0 mb-3">
+                <div class="d-flex align-items-center">
+                  <img
+                    src="images/icon_001.png"
+                    alt=""
+                    style="width: 65px; height: 65px"
+                    class="rounded-circle"
+                  />
+                  <div class="ms-3">
+                    <h5 class="fw-bold mb-0 text-white">
+                      Центр поддержки Украинцев
+                    </h5>
+                  </div>
+                </div>
+              </div>
+
+              <div class="card text-bg-primary p-3 border-0 mb-3">
+                <div class="d-flex align-items-center">
+                  <img
+                    src="images/icon_002.png"
+                    alt=""
+                    style="width: 65px; height: 65px"
+                    class="rounded-circle"
+                  />
+                  <div class="ms-3">
+                    <h5 class="fw-bold mb-0 text-white">Школа кадров</h5>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-md-6 col-lg-12">
+              <div class="the_hot">
+                <div class="card border-0 bg-white">
+                  <img
+                    class="image img-fluid object-fit-cover w-100 rounded-3"
+                    src="https://theotherukraine.info/wp-content/uploads/2023/11/photo_2023-11-27-17.42.58.jpeg"
+                  />
+                  <div class="card-img-overlay">
+                    <div class="top d-flex justify-content-between">
+                      <a href="#">
+                        <span
+                          class="badge rounded-pill text-bg-primary p-2 text-white fs-6"
+                          >Горячая тема
+                        </span>
+                      </a>
+                      <div class="icon">
+                        <i
+                          class="fa-sharp fa-solid fa-circle-play"
+                          style="color: #c1262d; font-size: 2rem"
+                        ></i>
+                      </div>
+                    </div>
+
+                    <div class="card-body">
+                      <div class="card-text text-white mb-2">
+                        Руслан Калинчук
+                      </div>
+                      <h5 class="card-title fs-4">
+                        Вместо образования — лженауки, вместо церкви —
+                        оккультизм
+                      </h5>
+                    </div>
+                  </div>
                 </div>
               </div>
             </div>
@@ -491,7 +540,27 @@
   </div>
   <div
     class="swiper p-3 pb-5"
-    data-swiper='{"spaceBetween":24, "slidesPerView":3, "pagination":{"el":".swiper-pagination-001"}, "navigation":{"nextEl":".swiper_block .swiper-next-002", "prevEl": ".swiper_block .swiper-prev-002"}}'
+    data-swiper='{
+      "spaceBetween":24, 
+      "slidesPerView":1, 
+      "pagination":{
+        "el":".swiper-pagination-001"
+      }, 
+      "navigation":{
+        "nextEl":".swiper_block .swiper-next-002", 
+        "prevEl": ".swiper_block .swiper-prev-002"
+      },
+      "breakpoints": {
+        "720": {
+          "slidesPerView": 2,
+          "spaceBetween": 24
+        },
+        "960": {
+          "slidesPerView": 3,
+          "spaceBetween": 24
+        }
+      }
+    }'
   >
     <div class="swiper-wrapper">
       <div class="swiper-slide">
@@ -621,7 +690,25 @@
   </div>
   <div
     class="swiper p-3 text-bg-primary"
-    data-swiper='{"spaceBetween":24, "slidesPerView":3, "pagination":{"el":".swiper-pagination-001"}, "navigation":{"nextEl":".swiper_block .swiper-next-001", "prevEl": ".swiper_block .swiper-prev-001"}}'
+    data-swiper='{
+      "spaceBetween":24, 
+      "slidesPerView":1, 
+      "pagination":{"el":".swiper-pagination-001"}, 
+      "navigation":{
+        "nextEl":".swiper_block .swiper-next-001", 
+        "prevEl": ".swiper_block .swiper-prev-001"
+      },
+      "breakpoints": {
+        "720": {
+          "slidesPerView": 2,
+          "spaceBetween": 24
+        },
+        "960": {
+          "slidesPerView": 3,
+          "spaceBetween": 24
+        }
+      }
+    }'
   >
     <div class="swiper-wrapper">
       <div class="swiper-slide">
@@ -804,7 +891,7 @@
       <div class="toolbar d-flex justify-content-between pt-3 px-3">
         <div class="left-slot d-flex">
           <div class="fw-bold fs-4 pe-5">Видео</div>
-          <div class="tags">
+          <div class="tags d-none d-md-block">
             <a
               href="#"
               class="btn btn-sm btn-outline-primary"
@@ -832,7 +919,24 @@
     <div
       class="swiper p-3"
       data-id="001"
-      data-swiper='{"spaceBetween":24, "slidesPerView":4, "pagination":{"el":".swiper-pagination-001"}, "navigation":{"nextEl":".swiper_block .swiper-next-000", "prevEl": ".swiper_block .swiper-prev-000"}}'
+      data-swiper='{
+        "spaceBetween":24, 
+        "slidesPerView":1, 
+        "pagination":{"el":".swiper-pagination-001"}, 
+        "navigation":{
+          "nextEl":".swiper_block .swiper-next-000", 
+          "prevEl": ".swiper_block .swiper-prev-000"},
+      "breakpoints": {
+        "720": {
+          "slidesPerView": 2,
+          "spaceBetween": 24
+        },
+        "960": {
+          "slidesPerView": 4,
+          "spaceBetween": 24
+        }
+      }
+        }'
     >
       <div class="swiper-wrapper">
         <div class="swiper-slide">
@@ -960,7 +1064,7 @@
       <div class="toolbar d-flex justify-content-between pt-3 px-3">
         <div class="left-slot d-flex">
           <div class="fw-bold fs-4 pe-5">Наша вера</div>
-          <div class="tags">
+          <div class="tags d-none d-md-block">
             <a
               href="#"
               class="btn btn-sm btn-outline-primary"
@@ -988,7 +1092,17 @@
   <div
     class="swiper p-3"
     data-id="001"
-    data-swiper='{"spaceBetween":24, "slidesPerView":4, "pagination":{"el":".swiper-pagination-006"}, "navigation":{"nextEl":".swiper_block .swiper-next-006", "prevEl": ".swiper_block .swiper-prev-006"}}'
+    data-swiper='{"spaceBetween":24, "slidesPerView":1, "pagination":{"el":".swiper-pagination-006"}, "navigation":{"nextEl":".swiper_block .swiper-next-006", "prevEl": ".swiper_block .swiper-prev-006"},
+      "breakpoints": {
+        "720": {
+          "slidesPerView": 2,
+          "spaceBetween": 24
+        },
+        "960": {
+          "slidesPerView": 4,
+          "spaceBetween": 24
+        }
+      }}'
   >
     <div class="swiper-wrapper">
       <div class="swiper-slide">
@@ -1145,54 +1259,58 @@
  <div class="footer text-bg-primary py-4">
   <div class="container-xxl">
     <div class="row">
-      <div class="col-2">
-        <div class="footer__logo">
+      <div class="col-12 col-md-2">
+        <div class="footer__logo col-6 col-md-12">
           <img src="images/logo.svg" />
         </div>
       </div>
-      <div class="offset-lg-1 col-3">
-        <nav class="nav flex-column text-bg-primary">
-          <a
-            class="nav-link active text-white"
-            aria-current="page"
-            href="#"
-            >Украина
-          </a>
-          <a
-            class="nav-link text-white"
-            href="#"
-            >Россия</a
-          >
-          <a
-            class="nav-link text-white"
-            href="#"
-            >Мир</a
-          >
-          <a class="nav-link text-white">СВО</a>
-        </nav>
+      <div class="col-12 col-md-6">
+        <div class="row">
+          <div class="offset-lg-1 col-6">
+            <nav class="nav flex-column text-bg-primary">
+              <a
+                class="nav-link active text-white"
+                aria-current="page"
+                href="#"
+                >Украина
+              </a>
+              <a
+                class="nav-link text-white"
+                href="#"
+                >Россия</a
+              >
+              <a
+                class="nav-link text-white"
+                href="#"
+                >Мир</a
+              >
+              <a class="nav-link text-white">СВО</a>
+            </nav>
+          </div>
+          <div class="col-6">
+            <nav class="nav flex-column">
+              <a
+                class="nav-link text-white"
+                aria-current="page"
+                href="#"
+                >Аналитика</a
+              >
+              <a
+                class="nav-link text-white"
+                href="#"
+                >Эксклюзив</a
+              >
+              <a
+                class="nav-link text-white"
+                href="#"
+                >Видео</a
+              >
+              <a class="nav-link text-white">Наша вера</a>
+            </nav>
+          </div>
+        </div>
       </div>
-      <div class="col-3">
-        <nav class="nav flex-column">
-          <a
-            class="nav-link text-white"
-            aria-current="page"
-            href="#"
-            >Аналитика</a
-          >
-          <a
-            class="nav-link text-white"
-            href="#"
-            >Эксклюзив</a
-          >
-          <a
-            class="nav-link text-white"
-            href="#"
-            >Видео</a
-          >
-          <a class="nav-link text-white">Наша вера</a>
-        </nav>
-      </div>
-      <div class="col-3">
+      <div class="col-12 col-md-3">
         <div class="input-group mb-3">
           <input
             type="text"
@@ -1216,6 +1334,148 @@
           Прямой эфир
         </button>
       </div>
+    </div>
+  </div>
+</div>
+ <div
+  class="the_mobile-side offcanvas offcanvas-end"
+  data-bs-scroll="true"
+  tabindex="-1"
+  id="offcanvasWithBothOptions"
+  aria-labelledby="offcanvasWithBothOptionsLabel"
+>
+  <div class="offcanvas-header">
+    <h5
+      class="offcanvas-title"
+      id="offcanvasWithBothOptionsLabel"
+    >
+      Меню
+    </h5>
+    <button
+      type="button"
+      class="btn-close"
+      data-bs-dismiss="offcanvas"
+      aria-label="Close"
+    ></button>
+  </div>
+  <div class="offcanvas-body">
+    <ul class="list-group list-group-flush">
+      <a
+        href="#"
+        class="the_mobile-side__link list-group-item"
+      >
+        Украина
+      </a>
+      <a
+        href="#"
+        class="the_mobile-side__link list-group-item"
+      >
+        Мир
+      </a>
+      <a
+        href="#"
+        class="the_mobile-side__link list-group-item"
+      >
+        Россия
+      </a>
+      <a
+        href="#"
+        class="the_mobile-side__link list-group-item"
+      >
+        СВО
+      </a>
+      <a
+        href="#"
+        class="the_mobile-side__link list-group-item"
+      >
+        Аналитика
+      </a>
+      <a
+        href="#"
+        class="the_mobile-side__link list-group-item"
+      >
+        Эксклюзив
+      </a>
+      <a
+        href="#"
+        class="the_mobile-side__link list-group-item"
+      >
+        Видео
+      </a>
+      <a
+        href="#"
+        class="the_mobile-side__link list-group-item"
+      >
+        Наша вера
+      </a>
+    </ul>
+    <ul class="list-group list-group-flush">
+      <a
+        href="#"
+        class="the_mobile-side__link list-group-item"
+      >
+        Русский
+      </a>
+      <a
+        href="#"
+        class="the_mobile-side__link list-group-item"
+      >
+        English
+      </a>
+    </ul>
+    <div class="ms-3 d-flex align-items-center social">
+      <a
+        href="#"
+        class="align-middle"
+        style="width: 24px"
+      >
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          height="24"
+          width="24"
+          viewBox="0 0 496 512"
+          class="tg"
+        >
+          <path
+            class="tg"
+            d="M248 8C111 8 0 119 0 256S111 504 248 504 496 393 496 256 385 8 248 8zM363 176.7c-3.7 39.2-19.9 134.4-28.1 178.3-3.5 18.6-10.3 24.8-16.9 25.4-14.4 1.3-25.3-9.5-39.3-18.7-21.8-14.3-34.2-23.2-55.3-37.2-24.5-16.1-8.6-25 5.3-39.5 3.7-3.8 67.1-61.5 68.3-66.7 .2-.7 .3-3.1-1.2-4.4s-3.6-.8-5.1-.5q-3.3 .7-104.6 69.1-14.8 10.2-26.9 9.9c-8.9-.2-25.9-5-38.6-9.1-15.5-5-27.9-7.7-26.8-16.3q.8-6.7 18.5-13.7 108.4-47.2 144.6-62.3c68.9-28.6 83.2-33.6 92.5-33.8 2.1 0 6.6 .5 9.6 2.9a10.5 10.5 0 0 1 3.5 6.7A43.8 43.8 0 0 1 363 176.7z"
+          />
+        </svg>
+      </a>
+      <a
+        href="#"
+        class="align-middle"
+        style="width: 24px"
+      >
+        <svg
+          class="vk"
+          xmlns="http://www.w3.org/2000/svg"
+          height="24"
+          width="24"
+          viewBox="0 0 448 512"
+        >
+          <path
+            d="M31.5 63.5C0 95 0 145.7 0 247V265C0 366.3 0 417 31.5 448.5C63 480 113.7 480 215 480H233C334.3 480 385 480 416.5 448.5C448 417 448 366.3 448 265V247C448 145.7 448 95 416.5 63.5C385 32 334.3 32 233 32H215C113.7 32 63 32 31.5 63.5zM75.6 168.3H126.7C128.4 253.8 166.1 290 196 297.4V168.3H244.2V242C273.7 238.8 304.6 205.2 315.1 168.3H363.3C359.3 187.4 351.5 205.6 340.2 221.6C328.9 237.6 314.5 251.1 297.7 261.2C316.4 270.5 332.9 283.6 346.1 299.8C359.4 315.9 369 334.6 374.5 354.7H321.4C316.6 337.3 306.6 321.6 292.9 309.8C279.1 297.9 262.2 290.4 244.2 288.1V354.7H238.4C136.3 354.7 78 284.7 75.6 168.3z"
+          />
+        </svg>
+      </a>
+      <a
+        href="#"
+        class="align-middle"
+        style="width: 24px"
+      >
+        <svg
+          class="ok"
+          xmlns="http://www.w3.org/2000/svg"
+          height="24"
+          width="24"
+          viewBox="0 0 448 512"
+        >
+          <path
+            d="M224 137.1a39.9 39.9 0 1 0 0 79.7 39.9 39.9 0 1 0 0-79.7zM384 32H64C28.7 32 0 60.7 0 96V416c0 35.3 28.7 64 64 64H384c35.3 0 64-28.7 64-64V96c0-35.3-28.7-64-64-64zM224 95.9A81 81 0 1 1 224 258a81 81 0 1 1 0-162.1zm59.3 168.3c16.8-13.2 29.5-5.5 34.1 3.6c7.8 16-1.1 23.7-21.5 37c-17.1 10.9-40.7 15.2-56.2 16.8l13 12.9 47.7 47.7c17.4 17.9-11 45.8-28.6 28.6c-12-12.2-29.5-29.7-47.7-47.9l0 0-47.7 47.9c-17.7 17.2-46-11-28.4-28.6c3.7-3.7 7.9-7.9 12.5-12.5c10.4-10.4 22.6-22.7 35.2-35.2l12.9-12.9c-15.4-1.6-39.3-5.7-56.6-16.8c-20.3-13.3-29.3-20.9-21.4-37c4.6-9.1 17.3-16.8 34.1-3.6c0 0 22.7 18 59.3 18s59.3-18 59.3-18z"
+          />
+        </svg>
+      </a>
     </div>
   </div>
 </div>
